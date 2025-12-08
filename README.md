@@ -89,28 +89,29 @@ The full database schema is included in `database.sql`.
 
 **2. Create database**
 
-   mysql -u your-username -p < database.sql
+    mysql -u your-username -p < database.sql
    
 **3. Set environment variables (`.env`)**
 
    
-   OPENAI_API_KEY=your_openai_key_here *(for AI recipe generation)*
+    OPENAI_API_KEY=your_openai_key_here *(for AI recipe generation)*
    
-   SPOONACULAR_API_KEY=your_spoonacular_key_here *(only if using Spoonacular recipe API)*
+    SPOONACULAR_API_KEY=your_spoonacular_key_here *(only if using Spoonacular recipe API)*
    
-   **Database connection**
+    **Database connection**
    
-   DB_HOST=your-db-host
+    DB_HOST=your-db-host
    
-   DB_USER=your-db-username
+    DB_USER=your-db-username
    
-   DB_PASSWORD=your-db-password
+    DB_PASSWORD=your-db-password
    
-   DB_NAME=your-db-name
+    DB_NAME=your-db-name
    
 **4. Run frontend**
-   npm install
-   npm run dev
+    npm install
+    npm run dev
+
 
 
 ## 🌱 Future Improvements
@@ -132,11 +133,13 @@ Enhance GUI with Customizable Features:​
    - to support users with more customization options, like adding filter to the Food List, etc.
 
 
+
 ## 🙌 Acknowledgements
 
 - OpenAI for recipe generation  
 - AWS for cloud infrastructure  
 - Spoonacular (optional)  
+
 
 
 ## 📜 License
