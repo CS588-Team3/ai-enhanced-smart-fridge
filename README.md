@@ -23,7 +23,9 @@ AI-Enhanced Smart Fridge is a cloud-native web application that helps users:
 
 - Track ingredients stored in their refrigerator  
 - Receive expiration reminders  
-- Generate AI-powered recipes using OpenAI GPT models  
+- Generate recipe suggestions through two intelligent methods:  
+  - Spoonacular API–based recipe search  
+  - AI-generated recipes using OpenAI GPT models  
 - Reduce food waste and simplify daily meal planning  
 
 The system uses a serverless AWS backend and a modern full-stack architecture.
@@ -109,6 +111,7 @@ The full database schema is included in `database.sql`.
     DB_NAME=your-db-name
    
 **4. Run frontend**
+
     npm install
     npm run dev
 
@@ -136,13 +139,12 @@ Enhance GUI with Customizable Features:​
 
 ## 🙌 Acknowledgements
 
-- OpenAI for recipe generation  
-- AWS for cloud infrastructure  
-- Spoonacular (optional)  
-
+- OpenAI for AI-powered recipe generation  
+- Spoonacular API for external recipe search  
+- AWS for providing serverless cloud infrastructure  
 
 
 ## 📜 License
 
-MIT License (or your chosen license)
+MIT License
 
