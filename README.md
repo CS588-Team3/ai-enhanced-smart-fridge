@@ -71,6 +71,10 @@ A simple, responsive web interface allows users to:
 <img width="1852" height="818" alt="image" src="https://github.com/user-attachments/assets/da8c16e4-17d0-4f2c-91bc-b1b86462ef4d" />
 
 
+## 🏗️ Class Diagram
+<img width="1458" height="802" alt="image" src="https://github.com/user-attachments/assets/7c60e27c-67f0-45fe-bba3-31fec289c9c7" />
+
+
 ## ⚙️ Tech Stack
 
 Frontend: Next.js, React, Tailwind CSS  
