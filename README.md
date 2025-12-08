@@ -74,6 +74,7 @@ A simple, responsive web interface allows users to:
 ## 🏗️ Class Diagram
 <img width="1458" height="802" alt="image" src="https://github.com/user-attachments/assets/7c60e27c-67f0-45fe-bba3-31fec289c9c7" />
 
+---
 
 ## ⚙️ Tech Stack
 
@@ -83,11 +84,13 @@ Database: AWS RDS MySQL
 AI: OpenAI GPT models  
 Languages: Python, Node.js  
 
+---
 
 ## 🗄️ Database Schema
 
 The full database schema is included in `database.sql`.
 
+---
 
 ## 🛠️ Setup Instructions
 
@@ -119,7 +122,7 @@ The full database schema is included in `database.sql`.
     npm install
     npm run dev
 
-
+---
 
 ## 🌱 Future Improvements
 
@@ -139,7 +142,7 @@ Enhance GUI with Customizable Features:​
 
    - to support users with more customization options, like adding filter to the Food List, etc.
 
-
+---
 
 ## 🙌 Acknowledgements
 
