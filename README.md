@@ -94,15 +94,21 @@ The full database schema is included in `database.sql`.
 **3. Set environment variables (`.env`)**
 
    *OpenAI API Key (for AI recipe generation)*
+   
    OPENAI_API_KEY=your_openai_key_here
    
    *Spoonacular API Key (only if using Spoonacular recipe API)*
+   
    SPOONACULAR_API_KEY=your_spoonacular_key_here
    
    *Database connection*
+   
    DB_HOST=your-db-host
+   
    DB_USER=your-db-username
+   
    DB_PASSWORD=your-db-password
+   
    DB_NAME=your-db-name
    
 **4. Run frontend**
