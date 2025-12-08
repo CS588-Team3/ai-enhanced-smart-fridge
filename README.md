@@ -72,9 +72,8 @@ A simple, responsive web interface allows users to:
 ## ⚙️ Tech Stack
 
 Frontend: Next.js, React, Tailwind CSS  
-Backend: AWS Lambda, API Gateway, S3  
+Backend: AWS Lambda, API Gateway
 Database: AWS RDS MySQL  
-
 AI: OpenAI GPT models  
 Languages: Python, Node.js  
 
@@ -86,49 +85,40 @@ The full database schema is included in `database.sql`.
 
 ## 🛠️ Setup Instructions
 
-1. Clone the repo
-   
-2. Create database
-   
+**1. Clone the repo**
+**2. Create database**
    mysql -u your-username -p < database.sql
-   
-3. Set environment variables (`.env`)
-   
-   # OpenAI API Key (for AI recipe generation)
+**3. Set environment variables (`.env`)**
+   *OpenAI API Key (for AI recipe generation)*
    OPENAI_API_KEY=your_openai_key_here
-
-   # Spoonacular API Key (only if using Spoonacular recipe API)
+   *Spoonacular API Key (only if using Spoonacular recipe API)*
    SPOONACULAR_API_KEY=your_spoonacular_key_here
-
-   # Database connection
+   *Database connection*
    DB_HOST=your-db-host
    DB_USER=your-db-username
    DB_PASSWORD=your-db-password
    DB_NAME=your-db-name
-   
-4. Run frontend
-   
+**4. Run frontend**
    npm install
-   
    npm run dev
 
 ## 🌱 Future Improvements
 
 Resolve Time Difference Issue:​
 
-    - Impletement consistent time zone handling between AWS and MySQL Workbench.​
+   - Impletement consistent time zone handling between AWS and MySQL Workbench.​
 
 Handle 503 Errors from OpenAI API:​
 
-    - Improve error handling and implement retry logic.​
+   - Improve error handling and implement retry logic.​
 
 Filter Incomplete Recipes from Spoonacular Food API:​
 
-    - Add validation mechanisms to detect incomplete recipe results returned by the API.​
+   - Add validation mechanisms to detect incomplete recipe results returned by the API.​
 
 Enhance GUI with Customizable Features:​
 
-    - to support users with more customization options, like adding filter to the Food List, etc.
+   - to support users with more customization options, like adding filter to the Food List, etc.
 
 ## 🙌 Acknowledgements
 
