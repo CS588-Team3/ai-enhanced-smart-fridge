@@ -113,11 +113,11 @@ The full database schema is included in `database.sql`.
 **3. Set environment variables (`.env`)**
 
    
-    OPENAI_API_KEY=your_openai_key_here *(for AI recipe generation)*
+    OPENAI_API_KEY=your_openai_key_here #(for AI recipe generation)
    
-    SPOONACULAR_API_KEY=your_spoonacular_key_here *(only if using Spoonacular recipe API)*
+    SPOONACULAR_API_KEY=your_spoonacular_key_here #(only if using Spoonacular recipe API)
    
-    **Database connection**
+    #Database connection
    
     DB_HOST=your-db-host
    
