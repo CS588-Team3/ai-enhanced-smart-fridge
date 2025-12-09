@@ -1,6 +1,7 @@
 # AI-Enhanced Smart Fridge
 ### Web-Based Ingredient Tracking & Intelligent Recipe Suggestions
 
+---
 
 We recommend logging in with your own email. Alternatively, you may use our test account:
 
