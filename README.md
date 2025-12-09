@@ -3,14 +3,6 @@
 
 ---
 
-We recommend logging in with your own email. Alternatively, you may use our test account:
-
-Email: fasob29771@aupvs.com
-
-Password: 1007Password!
-
----
-
 ## 🧰 Tech Stack Badges
 
 ![Next.js](https://img.shields.io/badge/Framework-Next.js-000000?style=for-the-badge&logo=next.js)
@@ -37,6 +29,14 @@ AI-Enhanced Smart Fridge is a cloud-native web application that helps users:
 - Reduce food waste and simplify daily meal planning  
 
 The system uses a serverless AWS backend and a modern full-stack architecture.
+
+**Our App Endpoint URL:** https://d2y4x707vtgp8u.cloudfront.net/
+
+We recommend logging in with your own email. Alternatively, you may use our test account:
+
+  Email: fasob29771@aupvs.com
+
+  Password: 1007Password!
 
 ---
 
