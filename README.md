@@ -1,6 +1,9 @@
 # AI-Enhanced Smart Fridge
 ### Web-Based Ingredient Tracking & Intelligent Recipe Suggestions
 
+We recommend logging in with your own email. Alternatively, you may use our test account:
+Email: fasob29771@aupvs.com
+Password: 1007Password!
 ---
 
 ## 🧰 Tech Stack Badges
